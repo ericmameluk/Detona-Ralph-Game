@@ -20,10 +20,6 @@ const state = {
 }
 
 function resetGame() {
-    state.values.lives = 3;
-    state.values.result = 0;
-    state.values.currentTime = 60;
-
     clearInterval(state.actions.countDownTimerId);
     clearInterval(state.actions.timerId);
 
@@ -31,10 +27,17 @@ function resetGame() {
     state.actions.timerId = setInterval(randomSquare, 600);
 
     setTimeout(() => {
-        alert("Game Over! O seu resultado foi: " + state.values.result)
-        state.view.lives.textContent = "x" + state.values.lives;
-        state.view.score.textContent = 0;;
+        alert("Game Over! O seu resultado foi: " + state.values.result);
     }, 100);
+
+    setTimeout(() => {
+        state.view.lives.textContent = "x" + 3;
+        state.view.score.textContent = 0;
+
+        state.values.lives = 3;
+        state.values.result = 0;
+        state.values.currentTime = 60;
+    }, 101);
 }
 
 function countDown() {
