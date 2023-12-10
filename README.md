@@ -9,7 +9,7 @@ Além do HTML e CSS, foi usado o JavaScript para dar vida ao projeto sendo o foc
 - Manipulação DOM;
 - Variáveis View, Values e Actions;
 - EventListener;
-- Implementação de áudio;
+- Implementação de áudio.
 
 
 ## Adições
@@ -19,8 +19,8 @@ Adicionei algumas funções que julguei necessário para melhor experiência, se
 - Inimigo sumir após o acerto;
 - Vida do jogador;
 - Dois tipos de Game Over (Sem tempo e sem vida);
-- Reset do jogo ao finalizar;
+- Reset do jogo ao finalizar.
 ## Créditos
 
-- Bootcamp: [Potência Tech iFood - DIO](www.dio.me/bootcamp/potencia-tech-ifood-desenvolvimento-de-jogos)
-- Sound effects: [Mixkit](https://mixkit.co)
+- Bootcamp: [Potência Tech iFood - DIO](www.dio.me/bootcamp/potencia-tech-ifood-desenvolvimento-de-jogos);
+- Sound effects: [Mixkit](https://mixkit.co).
